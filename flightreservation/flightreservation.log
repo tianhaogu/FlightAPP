@@ -1,0 +1,35 @@
+2022-07-04 00:16:39.341  INFO 28184 --- [main] c.b.f.FlightreservationApplication       : Starting FlightreservationApplication using Java 1.8.0_331 on DESKTOP-SEGPFQA with PID 28184 (D:\Springboot_Microservice\STS\flightreservation\target\classes started by gutia in D:\Springboot_Microservice\STS\flightreservation)
+2022-07-04 00:16:39.343  INFO 28184 --- [main] c.b.f.FlightreservationApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-07-04 00:16:39.707  INFO 28184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-04 00:16:39.745  INFO 28184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 4 JPA repository interfaces.
+2022-07-04 00:16:40.056  INFO 28184 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-04 00:16:40.064  INFO 28184 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 00:16:40.064  INFO 28184 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-04 00:16:40.356  INFO 28184 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-04 00:16:40.361  INFO 28184 --- [main] o.a.c.c.C.[.[.[/flightreservation]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 00:16:40.361  INFO 28184 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 991 ms
+2022-07-04 00:16:40.483  INFO 28184 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-04 00:16:40.603  INFO 28184 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-04 00:16:40.638  INFO 28184 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-04 00:16:40.673  INFO 28184 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-04 00:16:40.819  INFO 28184 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-04 00:16:40.935  INFO 28184 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-04 00:16:41.473  INFO 28184 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-04 00:16:41.481  INFO 28184 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-04 00:16:41.990  WARN 28184 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-04 00:16:42.258  INFO 28184 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2022-07-04 00:16:42.417  INFO 28184 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/flightreservation'
+2022-07-04 00:16:42.424  INFO 28184 --- [main] c.b.f.FlightreservationApplication       : Started FlightreservationApplication in 3.329 seconds (JVM running for 3.873)
+2022-07-04 00:16:57.165  INFO 28184 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/flightreservation]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-04 00:16:57.165  INFO 28184 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-04 00:16:57.166  INFO 28184 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-04 00:16:57.190  INFO 28184 --- [http-nio-8080-exec-2] c.b.f.controllers.UserController         : Inside showLoginPage() 
+2022-07-04 00:17:04.916  INFO 28184 --- [http-nio-8080-exec-5] c.b.f.controllers.UserController         : Inside login() and the email is: william@gmail.com
+2022-07-04 00:17:09.884  INFO 28184 --- [http-nio-8080-exec-3] c.b.f.controllers.FlightController       : Inside findFlights() from: AUS To:  Departure Date: Mon Feb 05 00:00:00 EST 2018
+2022-07-04 00:17:09.893  INFO 28184 --- [http-nio-8080-exec-3] c.b.f.controllers.FlightController       : Flight found are: [Flight [flightNumber=AA1, operatingAirlines=American Airlines, departureCity=AUS, arrivalCity=NYC, dateOfDeparture=2018-02-05 00:00:00.0, estimatedDepartureTime=2018-02-05 03:14:07.0], Flight [flightNumber=AA2, operatingAirlines=American Airlines, departureCity=AUS, arrivalCity=NYC, dateOfDeparture=2018-02-05 00:00:00.0, estimatedDepartureTime=2018-02-05 05:14:07.0], Flight [flightNumber=AA3, operatingAirlines=American Airlines, departureCity=AUS, arrivalCity=NYC, dateOfDeparture=2018-02-05 00:00:00.0, estimatedDepartureTime=2018-02-05 06:14:07.0], Flight [flightNumber=SW1, operatingAirlines=South West, departureCity=AUS, arrivalCity=NYC, dateOfDeparture=2018-02-05 00:00:00.0, estimatedDepartureTime=2018-02-05 07:14:07.0]]
+2022-07-04 00:17:11.045  INFO 28184 --- [http-nio-8080-exec-4] c.b.f.controllers.ReservationController  : showCompleteReservation() invoked with the Flight Id: 4
+2022-07-04 00:17:11.067  INFO 28184 --- [http-nio-8080-exec-4] c.b.f.controllers.ReservationController  : Flight is: Flight [flightNumber=SW1, operatingAirlines=South West, departureCity=AUS, arrivalCity=NYC, dateOfDeparture=2018-02-05 00:00:00.0, estimatedDepartureTime=2018-02-05 07:14:07.0]
+2022-07-04 00:18:50.899  INFO 28184 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-07-04 00:18:50.989  INFO 28184 --- [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-04 00:18:50.991  INFO 28184 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-04 00:18:50.997  INFO 28184 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
